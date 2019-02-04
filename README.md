@@ -1,0 +1,2 @@
+# android_training
+ネットにあがってるTrainingに沿ってAndroidをお勉強
