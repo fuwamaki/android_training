@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // Listに並べる
         val items = Array(20, { i -> "Title-$i" })
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items)
         mainListView.adapter = adapter
